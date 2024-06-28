@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Responsive E-resume Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Ameera <span>Riszuana</span></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="education.html">Education</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Ameera</span></h1>
+            <h3 class="text-animation">I'm a<span></span></h3>
+            <p>Albert Einstein meant me when he said, "Creativity is intelligence having fun." 
+              Hire me, and you can see how intelligent having fun!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/siti-nurul-syafikah-b601bb2a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://wa.link/0gbfdo"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.instagram.com/me_arsz?igsh=MTFpbHkwN2N2cXltdg%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="AboutMe.html" class="btn">About Me</a>
+                <a href="#contact" class="btn">Ask Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images/profilepic.jpg" alt="Ameera's image">
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2010-2016</div>
+                    <div class="timeline-content">
+                        <h3>Middle School</h3>
+                        <p>I used to study at Sekolah Rendah Kebangsaan St. Mary Convent, Sandakan, Sabah.It was a great school with skilled 
+                            teacher.In my UPSR, i've got 4A1B thanks to them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2016-2021</div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>I went to mixed high-school where there were lots of chinese friends at Sekolah Menengah Jenis Kebangsaan
+                            Tiong Hua.This is the phase where i stared to learn about Sains Komputer and Alhamdulillah i got A for it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021-2022</div>
+                    <div class="timeline-content">
+                        <h3>Pra-University(F6)</h3>
+                        <p>Giving it a chance to enter form 6 at Kolej Datuk Pengiran Galpam Sandakan. This is where I started to learn more
+                            about Information Communication and Technology. I'm also satisfied with my result 2A,2A- with 3.75 GPA .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023-2026</div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>Meeting lots of new people and skilled lecturer that teach me a lot at Universiti Teknologi Mara Puncak Perdana. 
+                           It was hard at first because I need to be away from my family but it made who I am today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2>
+                <div class="services-container">
+                    <div class="service-box">
+                    <div class="service-info">
+                    <h4>UI Design</h4>
+                    <p>Proficient in creating visually appealing and intuitive interfaces for web and mobile applications.
+                    I'm also skilled in designing buttons, icons, and controls that enhance user experience </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Development</h4>
+                    <p>Experienced in front-end development using HTML, CSS, and JavaScript.
+                    I am also familiar with responsive design principles and optimizing website performance</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Graphic Design</h4>
+                    <p>Adept at using Adobe Creative Suite (Photoshop or Illustrator)
+                    I am also Capable of designing logos, posters, and marketing materials.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Mobile App Development</h4>
+                    <p>Currently studying in developing mobile apps using technologies like React Native and Flutter.
+                        Focused on creating seamless user experiences and efficient code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonials</h2>
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="1.jpg" alt="Mohd Alfian">
+                    <h2>Mohd Alfian</h2>
+                    <div class="rating">
+                        <i class='bx bxg-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Ameera is a dedicated and skilled professional. Highly recommended! </p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="2.jpg" alt="Ziqah">
+                    <h2>Norhaziqah</h2>
+                    <div class="rating">
+                        <i class='bx bxg-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Working with Ameera has been a pleasure. She consistently deliver excellent results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"  class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Testimonials</a></li>
+        </ul>
+        <p class="copyright">© Ameera Riszuana | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
+
+
+
+
+
+   
